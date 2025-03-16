@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const HeaderSection = () => {
   return (
-    <header className=" flex justify-between items-center px-4 md:px10 py-3 header-transition z-50 w-full shadow-md">
+    <header className=" flex justify-between items-center flex-wrap px-4 md:px10 py-3 header-transition z-50 w-full shadow-md">
       <div>
         <Link href="/" className="font-bold text-4xl">
           Grapich App

@@ -74,7 +74,7 @@ export default function Home() {
               eCommerce and Brands.
             </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center pt-10">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4 items-center pt-10">
             <div className="bg-gray-300 h-full hover:bg-gray-400 transition-all px-2 duration-150 linear py-2 ">
               <div className=" h-[180px] flex items-center justify-center">
                 <Image
@@ -276,30 +276,38 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 md:gap-10 ">
               <div>
-                <h3 className="text-3xl font-medium lg:text-4xl mb-2">12+</h3>
+                <h3 className="text-3xl font-medium lg:text-4xl mb-2  text-center md:text-left">
+                  12+
+                </h3>
                 <hr className="text-gray-200 pb-2" />
-                <p className="text-xs uppercase tracking-wide text-gray-500 sm:text-xs xl:text-sm 2xl:text-sm">
+                <p className="text-center md:text-left text-xs uppercase tracking-wide text-gray-500 sm:text-xs xl:text-sm 2xl:text-sm">
                   Brands
                 </p>
               </div>
               <div>
-                <h3 className="text-3xl font-medium lg:text-4xl mb-2">250+</h3>
+                <h3 className="text-3xl font-medium lg:text-4xl mb-2  text-center md:text-left">
+                  250+
+                </h3>
                 <hr className="text-gray-200 pb-2" />
-                <p className="text-xs uppercase tracking-wide text-gray-500 sm:text-xs xl:text-sm 2xl:text-sm">
+                <p className="text-center md:text-left text-xs uppercase tracking-wide text-gray-500 sm:text-xs xl:text-sm 2xl:text-sm">
                   Permanent Employees
                 </p>
               </div>
               <div>
-                <h3 className="text-3xl font-medium lg:text-4xl mb-2">7500</h3>
+                <h3 className="text-3xl font-medium lg:text-4xl mb-2  text-center md:text-left">
+                  7500
+                </h3>
                 <hr className="text-gray-200 pb-2" />
-                <p className="text-xs uppercase tracking-wide text-gray-500 sm:text-xs xl:text-sm 2xl:text-sm">
+                <p className="text-center md:text-left text-xs uppercase tracking-wide text-gray-500 sm:text-xs xl:text-sm 2xl:text-sm">
                   SFT Production Space
                 </p>
               </div>
               <div>
-                <h3 className="text-3xl font-medium lg:text-4xl mb-2">7M+</h3>
+                <h3 className="text-3xl font-medium lg:text-4xl mb-2  text-center md:text-left">
+                  7M+
+                </h3>
                 <hr className="text-gray-200 pb-2" />
-                <p className="text-xs uppercase tracking-wide text-gray-500 sm:text-xs xl:text-sm 2xl:text-sm">
+                <p className="text-center md:text-left text-xs uppercase tracking-wide text-gray-500 sm:text-xs xl:text-sm 2xl:text-sm">
                   Delivered Photos Per Year
                 </p>
               </div>
